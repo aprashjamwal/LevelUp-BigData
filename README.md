@@ -1,4 +1,4 @@
-# 🎮 GamePulse: Big Data Pipeline for an Online Gaming Platform
+# 🎮 GamePulse - Big Data Pipeline for an Online Gaming Platform
 
 > *Leveling up data engineering, one Delta table at a time.*
 
@@ -12,7 +12,7 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 ---
 
-## 👥 Team — Group 6
+## 👥 Team: Group 6
 
 | # | Name | GitHub |
 |---|---|---|
