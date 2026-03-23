@@ -8,7 +8,7 @@
 
 GamePulse is a simulated online gaming platform built to analyze player behaviour, game engagement, and in-game spending patterns. This project implements a full end-to-end big data pipeline using **Databricks** and **PySpark**, following the **medallion architecture** (Bronze → Silver → Gold).
 
-Built as part of **SYST52461 – Big Data Storage and Analysis** at Humber College, Winter 2026.
+Built as part of **SYST52461 - Big Data Storage and Analysis** at Sheridan Trafalgar College, Winter 2026.
 
 ---
 
