@@ -8,7 +8,7 @@
 
 GamePulse is a simulated online gaming platform built to analyze player behaviour, game engagement, and in-game spending patterns. This project implements a full end-to-end big data pipeline using **Databricks** and **PySpark**, following the **medallion architecture** (Bronze → Silver → Gold).
 
-Built as part of **SYST52461 - Big Data Storage and Analysis** at Sheridan Trafalgar College, Winter 2026.
+Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 ---
 
@@ -25,30 +25,22 @@ Built as part of **SYST52461 - Big Data Storage and Analysis** at Sheridan Trafa
 
 ## 🏗️ Medallion Architecture
 
-🥉 BRONZE          🥈 SILVER            🥇 GOLD
-──────────         ──────────           ──────────
-Raw mock     →     Cleaned &      →     Joined &
-data               standardized         aggregated
-
-| Layer | What Happens |
+| Layer | Description |
 |---|---|
-| 🥉 Bronze | Raw mock data generated with intentional quality issues — nulls, inconsistent formatting, wrong data types |
-| 🥈 Silver | Data is cleaned, standardized, null values handled, and date fields correctly typed |
-| 🥇 Gold | Silver tables are joined and aggregated into analysis-ready datasets |
+| 🥉 **Bronze** | Raw mock data generated with intentional quality issues — nulls, inconsistent formatting, wrong data types |
+| 🥈 **Silver** | Data is cleaned, standardized, null values handled, and date fields correctly typed |
+| 🥇 **Gold** | Silver tables are joined and aggregated into analysis-ready datasets for dashboards and EDA |
 
 ---
 
 ## 🗂️ Repository Structure
 
-📁 LevelUp-BigData/
-│
-├── 📓 notebooks/
-│   ├── 01_bronze_data_generation.ipynb    ← Raw mock data generation
-│   ├── 02_silver_processing.ipynb         ← Cleaning & standardizing
-│   ├── 03_gold_aggregation.ipynb          ← Joins & aggregations
-│   └── 04_eda_analysis.ipynb              ← EDA, KPIs & visualizations
-│
-└── 📄 README.md
+| Notebook | Layer | Purpose |
+|---|---|---|
+| `01_bronze_data_generation.ipynb` | 🥉 Bronze | Raw mock data generation |
+| `02_silver_processing.ipynb` | 🥈 Silver | Cleaning & standardizing |
+| `03_gold_aggregation.ipynb` | 🥇 Gold | Joins & aggregations |
+| `04_eda_analysis.ipynb` | 📊 EDA | KPIs & visualizations |
 
 ---
 
@@ -65,24 +57,11 @@ data               standardized         aggregated
 
 ## 🔗 Table Relationships
 
----
-
-## 📊 Dataset — 4 Tables
-
-| Table | Description | Key Columns |
+| Foreign Key | From Table | To Table |
 |---|---|---|
-| `players` | Player demographics and account info | player_id, username, age, region, account_type |
-| `games` | Game catalog | game_id, title, genre, game_mode |
-| `game_sessions` | Session logs per player per game | session_id, player_id, game_id, duration, score, outcome |
-| `purchases` | In-game transactions per player | purchase_id, player_id, item_name, category, amount_spent |
-
----
-
-## 🔗 Table Relationships
-
-players ──── player_id ────► game_sessions ◄──── game_id ──── games
-│
-└──── player_id ────► purchases
+| `player_id` | `game_sessions` | `players` |
+| `player_id` | `purchases` | `players` |
+| `game_id` | `game_sessions` | `games` |
 
 ---
 
@@ -105,4 +84,4 @@ players ──── player_id ────► game_sessions ◄──── gam
 
 ---
 
- *© 2026 Group 6 — SYST52461 Big Data Storage and Analysis*
+*© 2026 Group 6 — SYST52461 Big Data Storage and Analysis*
