@@ -84,4 +84,4 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 ---
 
-*© 2026 Group 6: SYST52461 Big Data Storage and Analysis*
+*© 2026 Group 6 - SYST52461 Big Data Storage and Analysis*
