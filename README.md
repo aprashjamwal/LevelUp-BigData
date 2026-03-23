@@ -1,4 +1,4 @@
-# 🎮 GamePulse — Big Data Pipeline for an Online Gaming Platform
+# 🎮 GamePulse: Big Data Pipeline for an Online Gaming Platform
 
 > *Leveling up data engineering, one Delta table at a time.*
 
@@ -27,7 +27,7 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 | Layer | Description |
 |---|---|
-| 🥉 **Bronze** | Raw mock data generated with intentional quality issues — nulls, inconsistent formatting, wrong data types |
+| 🥉 **Bronze** | Raw mock data generated with intentional quality issues - nulls, inconsistent formatting, wrong data types |
 | 🥈 **Silver** | Data is cleaned, standardized, null values handled, and date fields correctly typed |
 | 🥇 **Gold** | Silver tables are joined and aggregated into analysis-ready datasets for dashboards and EDA |
 
@@ -84,4 +84,4 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 ---
 
-*© 2026 Group 6 — SYST52461 Big Data Storage and Analysis*
+*© 2026 Group 6: SYST52461 Big Data Storage and Analysis*
