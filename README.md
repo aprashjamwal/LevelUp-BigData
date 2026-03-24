@@ -17,9 +17,9 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 | # | Name | GitHub |
 |---|---|---|
 | 1 | Sara Farshadfar | @username |
-| 2 | Rodrigo Mayorga Rozo | @username |
+| 2 | Rodrigo Mayorga Rozo | @rodrimayorga19-hash |
 | 3 | Aprash Jamwal | @aprashjamwal |
-| 4 | Aniket Shinde | @username |
+| 4 | Aniket Shinde | @aniketqxp |
 
 ---
 
