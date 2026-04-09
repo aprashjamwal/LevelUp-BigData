@@ -16,7 +16,7 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 | # | Name | GitHub |
 |---|---|---|
-| 1 | Xian | @username |
+| 1 | Xian Qin | @enzo-qin |
 | 2 | Rodrigo Mayorga Rozo | @rodrimayorga19-hash |
 | 3 | Aprash Jamwal | @aprashjamwal |
 | 4 | Aniket Shinde | @aniketqxp |
