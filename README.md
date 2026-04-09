@@ -86,21 +86,23 @@ Built as part of **SYST52461 – Big Data Storage and Analysis**, Winter 2026.
 
 ## 🤝 Team Contributions
 
-All team members contributed to the project through code development, testing, and documentation. Responsibilities were divided as follows:
+All team members collaboratively contributed to every stage of the project, including data generation, data processing, analysis, and visualization. While each member took primary responsibility for specific components, all members participated in reviewing, testing, and refining the entire pipeline.
+
+Primary responsibilities were distributed as follows:
 
 - **Xian Qin**  
-  Designed and implemented the Bronze layer, including mock data generation and schema setup.
+  Led the development of the Bronze layer (data generation), and contributed to Silver cleaning and overall testing.
 
 - **Rodrigo Mayorga Rozo**  
-  Developed the Silver layer, handling data cleaning, null value treatment, and data type corrections.
+  Led the Silver layer (data cleaning and transformation), and assisted with Gold aggregation and debugging.
 
 - **Aprash Jamwal**  
-  Built the Gold layer, including joins and aggregations, and performed exploratory data analysis (EDA).
+  Led the Gold layer and EDA analysis, and contributed to Silver processing and data validation.
 
 - **Aniket Shinde**  
-  Designed and implemented the Databricks dashboard and contributed to the final report writing and visualization storytelling.
+  Led dashboard development and visualization, and contributed to EDA and report writing.
 
-All members actively participated in reviewing code, refining logic, and ensuring the overall quality of the pipeline.
+All members actively reviewed each other’s code, contributed improvements, and ensured consistency across the Bronze, Silver, and Gold layers.
 
 ---
 
